@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:500;
+  }
+
+  #wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid rebeccapurple;
+    padding: 50px;
+    background-color: plum;
+    margin-top: 60px;
+  }
+
+  h1 {
+    color:darkred;
+  }
+ 
+  .newLi {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: purple;
+    font-weight: 700;
+  }
+  .winner {
+    color: blueviolet;
+  }
+  
+  .loser {
+    color:rgb(196, 1, 1);
+  }
+  
+
+
+  .playButtons {
+    background-color: #c9d7ed;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 20px;
+  }
+
+  .newGameButton {
+    background-color:rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 20px;
+  }
+
+  #rock {
+    background-color:palevioletred;
+    border:groove;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 20px;
+  }
+
+  #paper {
+    background-color:palegoldenrod;
+    border:groove;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 20px;
+  }
+
+  #scissor {
+    background-color:aqua;
+    border: groove;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 20px;
+  }
+
+  #logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+
+  }
+
+  img {  
+    max-width: 50%;  
+    height: 50%;  
+    }  

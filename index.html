@@ -3,12 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <script src="script.js">
-    </script>
-     
-   
+    <div id="wrapper">
+      <h1>Rock, Paper, Scissor!</h1>
+      <div id="logo"><img src='image/rockpaper.jpeg'/></div>
+      <h2><span id="player">0</span> to <span id="computer">0</span></h2>
+      <div>
+        <p id="finalScore"></p>
+      </div>
+      <div id="options">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissor">Scissors</button>   
+        <button id="newGame">Play Again!</button>   
+      </div>
+       
+      <div>
+        <p>Select Rock, paper or scissor:</p>
+        <ul id ="roundScore"></ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
